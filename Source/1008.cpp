@@ -3,9 +3,10 @@
 using namespace std;
 int main()
 {
-    int a,b;
+    double a,b;
     cin>>a>>b;
-    cout<<a+b<<std::endl;
+    cout.precision(12);
+    cout<<a/b<<std::endl;
 
     return 0;
 }
